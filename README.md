@@ -75,6 +75,7 @@ MonthlyCharges
 TotalCharges
 
 Churn (Target)
+
 ---
 ## Usage
 
@@ -87,6 +88,7 @@ The UI will open in your browser. Fill in the customer details and click Predict
 
 Example prediction input includes fields such as: gender, SeniorCitizen, Partner, Dependents, tenure, PhoneService, etc.
 
+---
 ## Model
 
 Algorithm: Gradient Boosting Classifier
@@ -95,6 +97,7 @@ Trained on customer features to predict churn (Yes/No).
 
 The model is saved in model.pkl and loaded by the Streamlit app for real-time predictions.
 
+---
 ## License
 
 This project is licensed under the MIT License.
